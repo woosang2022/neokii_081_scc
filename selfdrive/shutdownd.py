@@ -47,7 +47,7 @@ def main(gctx=None):
 
 def get_shutdown_val():
 
-  return int(120)
+  return int(1200)
 
 
 if __name__ == "__main__":
