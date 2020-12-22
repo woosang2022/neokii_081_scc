@@ -149,6 +149,12 @@ typedef struct UIScene {
   float max_distance;
   float lane_line_probs[4];
   float road_edge_stds[2];
+
+  //tpms
+  float tpmsPressureFl;
+  float tpmsPressureFr;
+  float tpmsPressureRl;
+  float tpmsPressureRr;
   
   // neokii dev UI
   cereal::CarState::Reader car_state;
