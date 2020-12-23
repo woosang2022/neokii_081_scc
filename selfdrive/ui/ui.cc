@@ -172,8 +172,8 @@ void update_sockets(UIState *s) {
     scene.tpmsPressureFr = data.getTpmsPressureFr();
     scene.tpmsPressureRl = data.getTpmsPressureRl();
     scene.tpmsPressureRr = data.getTpmsPressureRr();
-    scene.brakePress = data.getBrakePressed();
-    scene.brakeLights = data.getBrakeLights();
+    //scene.brakePress = data.getBrakePressed();
+    //scene.brakeLights = data.getBrakeLights();
    }
 
    if (sm.updated("carControl"))
